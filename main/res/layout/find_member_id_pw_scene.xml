@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/find_id_for_background"
+        android:layout_width="236dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="51dp"
+        android:text="아이디 찾기"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/input_name_for_find"
+        app:layout_constraintEnd_toStartOf="@+id/find_id_for_find" />
+
+    <TextView
+        android:id="@+id/input_name_for_find"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="17dp"
+        android:hint="이름을 입력해주세요"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/input_phonenumber_for_find"
+        app:layout_constraintEnd_toStartOf="@+id/find_id_for_find" />
+
+    <TextView
+        android:id="@+id/input_phonenumber_for_find"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="22dp"
+        android:hint="휴대폰번호를 입력해주세요"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/output_id_for_find"
+        app:layout_constraintEnd_toEndOf="@+id/find_id_for_find" />
+
+    <TextView
+        android:id="@+id/output_id_for_find"
+        android:layout_width="365dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="80dp"
+        android:text="당신의 아이디는 : "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/find_pw_for_background"
+        app:layout_constraintStart_toStartOf="@+id/input_phonenumber_for_find" />
+
+    <Button
+        android:id="@+id/find_id_for_find"
+        android:layout_width="89dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="117dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="찾기"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/input_id_for_find"
+        app:layout_constraintTop_toTopOf="@+id/find_id_for_background" />
+
+    <TextView
+        android:id="@+id/find_pw_for_background"
+        android:layout_width="281dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="52dp"
+        android:text="비밀번호 찾기"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/input_id_for_find"
+        app:layout_constraintStart_toStartOf="@+id/output_id_for_find" />
+
+    <TextView
+        android:id="@+id/input_id_for_find"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:hint="ID를 입력해주세요"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/input_hint_for_find"
+        app:layout_constraintEnd_toStartOf="@+id/find_pw_for_find" />
+
+    <TextView
+        android:id="@+id/input_hint_for_find"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="22dp"
+        android:hint="존경하는 사람은?"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/output_pw_for_find"
+        app:layout_constraintEnd_toStartOf="@+id/find_pw_for_find" />
+
+    <TextView
+        android:id="@+id/output_pw_for_find"
+        android:layout_width="365dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginBottom="104dp"
+        android:text="당신의 PW는 :"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/find_pw_for_find"
+        android:layout_width="89dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginBottom="57dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="찾기"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/output_pw_for_find"
+        app:layout_constraintStart_toStartOf="@+id/output_pw_for_find"
+        app:layout_constraintTop_toTopOf="@+id/find_id_for_find" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

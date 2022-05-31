@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/my_location_for_find"
+        android:layout_width="352dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="128dp"
+        android:text="내 위치 : 천완"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/search_name_for_find"
+        android:layout_width="257dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="304dp"
+        android:text="가게명을 입력하세요."
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_find_for_background"
+        android:layout_width="357dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="228dp"
+        android:text="가게명으로 검색"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cocept_find_for_background2"
+        android:layout_width="357dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="400dp"
+        android:text="컨셉으로 검색"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/search_for_find"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="296dp"
+        android:text="검색"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/search_kind_for_find"
+        android:layout_width="257dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="472dp"
+        android:text="음식종류"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/search_mood_for_find"
+        android:layout_width="257dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="520dp"
+        android:text="분위기"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/search_for_find2"
+        android:layout_width="96dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="472dp"
+        android:text="검색"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_find_for_background"
+        android:layout_width="414dp"
+        android:layout_height="80dp"
+        android:background="@color/teal_200"
+        android:text="스탬프모아"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
