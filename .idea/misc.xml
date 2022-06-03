@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/activity_main.xml" value="0.29583333333333334" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/business_member_main_scene.xml" value="0.2859375" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/check_store_scene.xml" value="0.25" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/find_member_id_pw_scene.xml" value="0.2859375" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/find_store_scene.xml" value="0.28489583333333335" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/get_stamp_scene.xml" value="0.3188405797101449" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/give_stamp_scene.xml" value="0.28489583333333335" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/join_member_scene.xml" value="0.25" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/log_scene.xml" value="0.33" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/modify_store_scene.xml" value="0.28489583333333335" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/my_coupon_scene.xml" value="0.28489583333333335" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/my_stamp_scene.xml" value="0.214453125" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/normal_member_main_scene.xml" value="0.28489583333333335" />
+        <entry key="..\:/AndroidWorkStation/app/src/main/res/layout/registration_store_scene.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
